@@ -12,6 +12,6 @@ describe('nested function', function () {
   })
   it('should call nested function', function () {
     const res = foo();
-    assert('FOOOOOOOOOO!!!!!!!!!!!', res);
+    assert('FOOOOOOOOOO>>>!!!!!!!!!!!' === res);
   });
 });
